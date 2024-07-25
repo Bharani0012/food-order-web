@@ -23,13 +23,19 @@ body {
     display: flex;
     justify-content: center;
 }
-
+.icon-conatiner{
+    display: flex;
+    margin-left: auto;
+}
 .nav-item {
     margin: 0 15px;
 }
 
 .nav-link {
     text-decoration: none;
+}
+.nav-link:visited{
+    color: black;
 }
 .home-container{
     background-image: linear-gradient(to right, rgb(248, 135, 154), pink, gold);
