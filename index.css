@@ -90,7 +90,9 @@ body {
 .card-img {
     width: 200px;
     height: 200px;
+    border-radius: 0px 3rem 0px 3rem;
     object-fit: cover;
+    padding-top: 1rem;
 }
 
 .card-title {
@@ -104,11 +106,12 @@ body {
 .order-now {
     display: block;
     margin: 2rem auto;
-    background: #333;
+    background: transparent;
     color: #fff;
-    border: none;
+    border: 1px solid white;
     padding: 1rem 2rem;
     cursor: pointer;
+    border-radius:1rem;
 }
 
 .order-now:hover {
