@@ -37,6 +37,9 @@ body {
 .nav-link:visited{
     color: black;
 }
+a:active {
+    color:black; /* Green */
+}
 .home-container{
     background-image: linear-gradient(to right, rgb(248, 135, 154), pink, gold);
     min-height: 120vh;
