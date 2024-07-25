@@ -80,7 +80,7 @@ body {
 .card {
     background: #fff;
     border: 1px solid #ddd;
-    border-radius: 0px 3rem 0px 3rem;
+    border-radius: 0px 3.3rem 0px 3.3rem;
     overflow: hidden;
     width: 300px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
