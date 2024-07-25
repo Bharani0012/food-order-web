@@ -116,6 +116,7 @@ body {
 
 .order-now:hover {
     border: 1px solid black;
+    color: black;
 }
 
 .footer {
