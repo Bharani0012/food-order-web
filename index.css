@@ -94,6 +94,10 @@ body {
     width: 300px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 5px;
+    transition: 0.3s all;
+}
+.card:hover {
+    border-radius: 3rem 0rem 3rem 0rem;
 }
 
 .card-img {
@@ -102,6 +106,9 @@ body {
     border-radius: 0px 3rem 0px 3rem;
     object-fit: cover;
     padding-top: 1rem;
+}
+.card:hover > .card-img{
+    border-radius: 3rem 0rem 3rem 0rem;
 }
 
 .card-title {
